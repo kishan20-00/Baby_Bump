@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/brandicons/dist/brandicons.min.css">
+    <title>Pregnancy Care App</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>BABY BUMP: A Monitoring System for Pregnant Mothers and Babies</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#research-details">Research Details</a></li>
+                <li><a href="#research-methodology">Methodology</a></li>
+                <li><a href="#plans">Subsription Plans</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#research">Evaluations</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#research-members">Team Members</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>      
+    <section id="hero">
+        <div class="container">
+            <img src="Picture1.png" alt="Pregnancy Care App Logo"> <!-- Add your logo image -->
+            <h2>Welcome to BABY BUMP</h2>
+            <p>"Your trusted companion on the beautiful journey of pregnancy and early motherhood. Our mobile app is specially crafted to provide expectant mothers and new parents with essential tools, resources, and support, ensuring a safe and joyous experience. Explore a wealth of features to monitor your pregnancy, receive expert guidance, and nurture your baby's growth. Join our community of like-minded parents, and let's embark on this incredible adventure together. Discover the perfect app for you and your little one's well-being."</p>
+            <a href="#download" class="cta-button">Download Now</a>
+        </div>
+    </section>   
+    <section id="research-details">
+        <div class="container">
+            <h2>Research Details</h2>
+            <div class="research-problem">
+                <h3>Research Problem</h3>
+                <p>1.	Do mothers concern about their food and mental health according to their body condition?<br>
+                    Misinformation about nutrition during pregnancy can mislead expectant mothers. Pregnant women should receive accurate and reliable nutrition information from reputable sources and consume a varied and balanced diet.
+                    Especially, mothers with anemia, diabetics, low and high BMI index must have a nutrition plan to maintain a healthy life.
+                    Also, as untreated mental health issues can have negative effects on mothers and babies. Therefore, they are seeking mental health and support.
+                <br>
+                <br>
+                    2.	Do mothers have an idea about the effect of the medicine they take during the pregnancy?<br>
+                    Certain medicines can harm the developing fetus and result in birth abnormalities or other pregnancy issues. Even medications that are safe for people who are not pregnant might not be safe for expectant mothers and fetus growth rate and brain development. Also, some pregnant women avoid the medications prescribed by the doctor because of myths or misinformation without rely on accurate information from reputable sources. That also can have harmful effects on the developing fetus as well as the mother.
+                <br>    
+                <br>
+                    3.	Can mothers get rapid answers to their problems those who have doubts which has to be solved?<br>
+                    While pregnant, you could experience both excitement and anxiety. A lot of expectant mothers seek advice from their doctors and loved ones, but it is not always easy to acquire the help they require. This could be because of not having access to medical treatment, not having family support, or just feeling overwhelmed. Pregnant people without a solid support network may find it particularly challenging.
+                <br>  
+                <br>  
+                    4.	Can mothers get some more details about the baby looking at the Ultrasound images?<br>
+                    Pregnant mothers get to know about their baby's shape and growth through Ultrasound images, some mothers are eager to know more details such as growth rate, normality and abnormalities of their babies by the pregnancy time, despite of hearing that your baby is fine, which would give them more satisfaction and make their mental health better.
+                    </p>
+            </div>
+            <div class="research-gaps">
+                <h3>Research Solution</h3>
+                <p> 1.  Providing nutrition and diet plans for weak pregnant women by analyzing health and mental conditions.<br>
+                       - This component would use image understanding processing to analyze a pregnant mother's monthly blood report and BMI value to identify if she is anemic, diabetic, or has a high or low BMI. It would then use computer vision and machine learning techniques to interpret the data and recommend an ideal diet plan for everyone based on their specific condition. Additionally, this component has a depression detection part which monitors the mother’s emotional state using Computer vision.
+                    <br>
+                    <br>
+                    2.	Building a system to find the effects of medicine on pregnant women and fetus.<br>
+                       - This component would use optical character recognition to recognize the prescriptions. After identifying the medicines and the dose, system provides a detailed report about the effect of the medicine with the help of trained model.    
+                    <br>
+                    <br>
+                    3.	Providing an image analyzing system to analyze the fetus ultrasound images.<br>
+                       - System detects baby's condition and growth by analyzing the ultrasound image using CNN and monitor the baby's health and growth rate after delivery by entering body measurements.
+                    <br>
+                    <br>
+                    4.	Providing an AI chatbot to get answers for mothers’ problems rapidly.<br>
+                       - System provides an Artificial Intelligence Chatbot in order to solve mothers’ daily problems which they face during pregnancy times. It will be an assistance for them in needed time and through emergencies too.
+                    </p>
+            </div>
+            <div class="research-objectives">
+                <h3>Main Objective</h3>
+                <p>- Creating a mobile application to monitor each mother’s activities.</p>
+                <h3>Sub Objectives</h3>
+                <ul>
+                    <li>Objective 1: Nutrition prediction and Emotion Detection</li>
+                    <li>Objective 2: Prediction of the effects of medicine on babies</li>
+                    <li>Objective 3: Creation of an AI chatbot</li>
+                    <li>Objective 4: Prediction of baby’s growth</li>
+                </ul>
+            </div>
+        </div>
+    </section>       
+    <section id="research-methodology">
+        <div class="container">
+            <h2>Research Methodology</h2>
+            <p>Here's an overview of our research methodology:</p>
+            <img src="Picture5.png" alt="Research Methodology">
+        </div>
+    </section>
+      
+    <section id="plans">
+        <div class="container">
+            <h2 class="plans-heading">Our Plans</h2>
+            <div class="plans-container">
+                <div class="plan">
+                    <h3>Basic Plan</h3>
+                    <p>Access to essential features</p>
+                    <span class="price">$9.99/month</span>
+                </div>
+                <div class="plan">
+                    <h3>Premium Plan</h3>
+                    <p>Unlock all features, priority support</p>
+                    <span class="price">$19.99/month</span>
+                </div>
+                <div class="plan">
+                    <h3>Family Plan</h3>
+                    <p>Share with family, unlimited access</p>
+                    <span class="price">$29.99/month</span>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-box">
+                <div class="feature">
+                    <img src="feature1.jpg" alt="Feature 1">
+                    <h3>Nutrition Meal Predictor</h3>
+                    <p>Get personalized nutrition recommendations.</p>
+                </div>
+                <div class="feature">
+                    <img src="feature2.jpg" alt="Feature 2">
+                    <h3>Medicine Effect Predictor</h3>
+                    <p>Know the effects of medications you get prescribed.</p>
+                </div>
+                <div class="feature">
+                    <img src="feature3.jpg" alt="Feature 3">
+                    <h3>AI Chatbot</h3>
+                    <p>Get better answers for the questions you possess.</p>
+                </div>
+                <div class="feature">
+                    <img src="Feature4.jpg" alt="Feature 4">
+                    <h3>Baby Growth Predictor</h3>
+                    <p>Stay informed about your baby's development.</p>
+                </div>
+                <div class="feature">
+                    <img src="Feature5.jpg" alt="Feature 5">
+                    <h3>Emotion Detector</h3>
+                    <p>Maintain your mental state.</p>
+                </div>
+                <div class="feature">
+                    <img src="Feature6.png" alt="Feature 6">
+                    <h3>Medicine Notification Reminder</h3>
+                    <p>Take you medications on time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="timeline">
+        <div class="container">
+            <h2>Project Timeline</h2>
+            <ul class="timeline-list">
+                <li>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">December 2023</span>
+                        <p>Topic Selection and Supervisor, Co-supervisor Approval</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">January 2023</span>
+                        <p>Topic Assessment Form Submission</p>
+                        <a href="https://docs.google.com/document/d/1YVCLrEs2Ainq-n3vFDlTQ6oPGNC1KOhqzwe1J8TLHlw/edit?usp=sharing" class="cta-button">
+                            <i class="fas fa-file-word"></i> View Document
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">February 2023</span>
+                        <p>Charter Document Submission</p>
+                        <a href="https://docs.google.com/document/d/1Pb5Cj2kxK6GSTrUIgB4-EGeZy7y49ivKcVxrZEAGYyY/edit?usp=sharing" class="cta-button">
+                            <i class="fas fa-file-word"></i> View Document
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">March 2023</span>
+                        <p>External Supervisor Approval</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">April 2023</span>
+                        <p>Proposal Presentation: The viva we faced to get approval for our project.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">May 2023</span>
+                        <p>Data Collection from De Soysa Maternity Hospital.</p>
+                        <a href="https://docs.google.com/forms/d/1nwBv9et53tBxxtO8D0CfX-hdj_gnlMfqsrSnNJbt0wI/edit?ts=643136b1" class="cta-button">
+                            <i class="fas fa-globe"></i> View Form
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">June 2023</span>
+                        <p>Progress Presentation 1</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">July 2023</span>
+                        <p>Data Collection from External Supervisor Clinics.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">August 2023</span>
+                        <p>Progress Presentation 2</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">September 2023</span>
+                        <p>Research Paper Submission</p>
+                        <a href="https://docs.google.com/forms/d/1nwBv9et53tBxxtO8D0CfX-hdj_gnlMfqsrSnNJbt0wI/edit?ts=643136b1" class="cta-button">
+                            <i class="fas fa-file-word"></i> View Document
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">October 2023</span>
+                        <p>Final Presentation</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+      
+    <section id="research">
+        <div class="research-heading">
+            <h2>Evaluations</h2>
+        </div>
+        <div class="container">
+            <section class="research-box">
+                <section id="proposal-presentation">
+                    <h3>Proposal Presentation</h3>
+                    <p>This is the PowerPoint we created for our Proposal Viva which was held in April, 2023. In this viva, we explained our components and got the approval to continue our process.</p>
+                    <a href="https://docs.google.com/presentation/d/1c1cgbwnSqU1KFOcZ-fXUCJ9jHme38IHEBRU5cnRAUkk/edit?usp=sharing" class="cta-button">
+                        <i class="fas fa-file-powerpoint"></i> View Presentation
+                    </a>
+                </section>
+            </section>
+            
+            <section class="research-box">
+                <section id="viva-presentation">
+                    <h3>Progress Presentation 1</h3>
+                    <p>This is the PowerPoint we created for our Progress Presentation 1 to show the project process up to 50%. This was held on June, 2023.</p>
+                    <a href="https://docs.google.com/presentation/d/1uVDrggVRzwI1qg8L7r41GVVUUyp1-0szjuzUOvRsZJk/edit?usp=sharing" class="cta-button">
+                        <i class="fas fa-file-powerpoint"></i> View Presentation
+                    </a>
+                </section>
+            </section>
+            
+            <section class="research-box">
+                <section id="proposal-reports">
+                    <h3>Progress Presentation 2</h3>
+                    <p>This is the PowerPoint we created for our Progress Presentation 2 to show the project process up to 90%. This was held on August, 2023.</p>
+                    <a href="https://docs.google.com/presentation/d/1Sv22J7S4amhRab6HHvVru7079wY5NrK6qLcVDa6rTuQ/edit?usp=sharing" class="cta-button">
+                        <i class="fas fa-file-powerpoint"></i> View Presentation
+                    </a>
+                </section>
+            </section>
+            
+            <section class="research-box">
+                <section id="proposal-reports">
+                    <h3>Final Presentation</h3>
+                    <p>This is the PowerPoint we created for our Final Presentation to show the project process up to 100%. This was held on October, 2023.</p>
+                    <a href="https://docs.google.com/presentation/d/1rQQ368Ax83CvZcn9xlk8X_X6tf-ZEEBtWAFrUZwlK9o/edit?usp=sharing" class="cta-button">
+                        <i class="fas fa-file-powerpoint"></i> View Presentation
+                    </a>
+                </section>
+            </section>
+        </div>
+        <section id="technologies">
+            <div class="container">
+                <h2>Technologies</h2>
+                <div class="technology-box">
+                    <div class="technology">
+                        <i class="fab fa-python"></i>
+                        <p>Python</p>
+                    </div>
+                    <div class="technology">
+                        <i class="fab fa-react"></i>
+                        <p>React Native</p>
+                    </div>
+                    <div class="technology">
+                        <i class="fab fa-html5"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="technology">
+                        <i class="fab fa-css3"></i>
+                        <p>CSS</p>
+                    </div>
+                    <!-- Add more technologies as needed -->
+                </div>
+            </div>
+        </section>
+        
+        
+    </section>         
+    <section id="research-members">
+        <div class="container">
+            <h2>Research Team</h2>
+            <div class="member">
+                <img src="Member1.jpg" alt="Member 1">
+                <h3>Balasooriya B. M. D. D.</h3>
+                <p>Deparment of Software Engineering</p>
+            </div>
+            <div class="member">
+                <img src="Member2.png" alt="Member 2">
+                <h3>Rathnayaka R. M. S. Y.</h3>
+                <p>Deparment of Software Engineering</p>
+            </div>
+            <div class="member">
+                <img src="Member3.jpg" alt="Member 3">
+                <h3>Perera K. S. C.</h3>
+                <p>Deparment of Software Engineering</p>
+            </div>
+            <div class="member">
+                <img src="Member4.jpg" alt="Member 4">
+                <h3>Kishan R.</h3>
+                <p>Deparment of Data Science</p>
+            </div>
+        </div>
+    </section>
+     
+    <section id="download">
+        <div class="container">
+            <h2>Download Our App</h2>
+            <p>Join thousands of parents who trust our app for a healthy pregnancy.</p>
+            <div class="app-images">
+                <img src="Picture2.png" alt="App Screenshot 1">
+                <img src="Picture3.png" alt="App Screenshot 2">
+                <img src="Picture4.png" alt="App Screenshot 3">
+            </div>
+            <a href="#" class="cta-button">Download Now</a>
+        </div>
+    </section>    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? We'd love to hear from you!</p>
+            <a href="mailto:contact@pregnancycareapp.com" class="cta-button">Email us</a>
+        </div>
+    </section>    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2023 Pregnancy Care App</p>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-google-play"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-apple"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>
